@@ -1,0 +1,24 @@
+ [
+
+    {
+        "q": "how many championships Michael Jordan won?",
+        "opt1": "5",
+        "opt2": "6",
+        "opt3": "7",
+        "answer": "6"
+    },
+    {
+        "q" : "The New York Yankees has?",
+        "opt1" : "27 World Series championships",
+        "opt2" : "29 World Series championships",
+        "opt3" : "30 World Series championships",
+        "answer" : "27 World Series championships"
+    },
+    {
+        "q" : "Who was Ayrton Senna?",
+        "opt1" : "Brazilian F1 racing driver",
+        "opt2" : "Brazilian motorcycle road racer",
+        "opt3" : "Italian motorcycle road racer",
+        "answer" : "Brazilian F1 racing driver"
+    }
+ ]

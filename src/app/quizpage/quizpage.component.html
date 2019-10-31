@@ -1,0 +1,33 @@
+<html>
+
+<head>
+    <script src="./quizpage.component.ts"></script>
+    <title>quiz</title>
+</head>
+
+<body>
+    <br /><br /><br />
+    <div class ="start" id ="start">
+    <button (click)="start()">Start Quiz </button>
+    </div>
+    <br /><br /><br />
+    <div class="qPanel" id="qp">
+        <div style="font-size:20pt;">Quiz</div>
+        <div class="ques" id="q">
+        </div>
+        <div><input type="radio" id="opt1" name="options">
+            <span id="optt1"></span>
+        </div>
+        <div><input type="radio" id="opt2" name="options">
+            <span id="optt2"></span>
+        </div>
+        <div><input type="radio" id="opt3" name="options">
+            <span id="optt3"></span>
+        </div>
+        <button (click)="checkAnswer()">Next </button>
+    </div>
+
+
+</body>
+
+</html>

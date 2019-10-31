@@ -1,0 +1,12 @@
+<form >
+    <div class="container" >
+    <br><br>
+    <h3>Select your Quiz topic </h3>
+    <br>
+    <select [(ngModel)]="topic" name=" " style="width: 200px;">
+    <option *ngFor="let item of data" [value]="item.name " > {{item.name}}</option>
+    </select>
+    <br><br>
+    <button class="btn-btn-primary" (click)="loadQuiz(topic)"> Submit </button>
+    </div>
+    </form>
